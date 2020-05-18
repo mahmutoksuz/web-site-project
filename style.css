@@ -39,8 +39,8 @@ ul{
 }
 nav{
     width: 100%;
-    font-family: Montserrat;
-    background-color: #2C3E50;
+    font-family: 'PT Serif', serif;
+    background-color: Black;
     color: #fff;
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
@@ -58,7 +58,7 @@ nav{
     
 }
 #logo-box .logo:hover{
-    color:#18BC9C;
+    color:gray;
 }
 #nav-links{
     float: right;
@@ -77,11 +77,11 @@ nav{
     transition: color 0.3s;
 }
 #nav-links .nav-link:hover{
-    color: #18BC9C;
+    color: gray;
 }
 
 header{
-    background-color: #18BC9C;
+    background-color: white;
     height: 1080px;
     padding-top:215px;
     padding-bottom: 115px;
@@ -89,7 +89,7 @@ header{
 }
 
 header h1{
-    color:#fff;
+    color: black;
     font-size: 7.6rem;
     padding-bottom: -40px;
 }
@@ -98,16 +98,17 @@ header h1{
 
 header h2{
     font-size: 7rem;
-    color: white;
+    color: black;
     font-family: 'Lato';
     font-weight: 300;
     
 }
 header h4{
      padding: 50px;
-    color:white;
+    color: black;
     font-size: 3rem;
 }
+
 
 
 
