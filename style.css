@@ -29,6 +29,9 @@ a{
 ul{
     list-style-type: none;
 }
+ol{
+    list-style-type: none;
+}
 .img-fluid{
     min-width: 10%;
     max-width:  40%;
