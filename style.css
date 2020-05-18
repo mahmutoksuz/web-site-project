@@ -34,26 +34,49 @@ ul{
     display: block;
     clear: both;
 }
-@media(min-width: 575px){
-    .navbar{
+.container{
+    display: block; 
+    width: 100%; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto; 
+    padding-left: 5rm;   
+}
+@media (min-width: 576px){
+    .container{
         max-width: 540px;
     }
 }
-@media(min-width: 767px){
-    .navbar{
+@media (min-width: 768px){
+    .container{
         max-width: 720px;
     }
 }
-@media(min-width: 991px){
-    .navbar{
-         max-width: 960px;
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
     }
 }
-@media(min-width: 1199px){
-    .navbar{
+@media (min-width: 1200px){
+    .container{
         max-width: 1140px;
     }
 }
+@media (min-width: 1500px){
+    .container{
+        max-width: 1430px;
+    }
+}
+@media (min-width: 1800px){
+    .container{
+        max-width: 1770px;
+    }
+}
+
+
+
+
 .text-uppercase{
     text-transform: uppercase;
 }
@@ -65,6 +88,7 @@ nav{
     padding-top: 2.3rem;
     padding-bottom: 2.3rem;
     position: fixed;
+    
 }
 
 #logo-box{
@@ -102,7 +126,8 @@ nav{
 
 header{
     background-color: white;
-    height: 1080px;
+    height: auto;
+    width: auto;
     padding-top:215px;
     padding-bottom: 115px;
     text-align: center;
@@ -112,12 +137,9 @@ header h1{
     color: black;
     font-size: 7.6rem;
     padding-bottom: -40px;
-    
+    text-align: center;
     position:inherit;
     margin: auto;
-    
-    
-    
 }
 header h2{
     font-size: 7rem;
@@ -137,4 +159,5 @@ header div{
     display: block;
     margin: 5%;
     padding:50px;
+    position:inherit;
 }
